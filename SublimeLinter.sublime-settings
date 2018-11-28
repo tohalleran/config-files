@@ -1,0 +1,17 @@
+{
+    "delay": 0.15,
+    "linters": {
+        "clang": {
+            "I": [
+                "${folder}/include",
+                "${folder}/3rdparty/bar/include",
+                "${folder}/3rdparty/baz"
+            ]
+        },
+        "gcc": {
+            "args": "-Wall -I${folder}/include -Wno-unused-function",
+            "disable": false,
+            "excludes": []
+        }
+    }
+}
