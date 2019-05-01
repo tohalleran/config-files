@@ -1,2 +1,2 @@
 [alias]
-  tree = log --oneline --graph --color --all --decorate
+  tree = log --graph --decorate --oneline --abbrev-commit --all --topo-order --boundary
